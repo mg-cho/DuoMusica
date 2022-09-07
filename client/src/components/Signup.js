@@ -1,6 +1,6 @@
 import { CognitoUserAttribute } from 'amazon-cognito-identity-js';
 import React, {useState} from 'react';
-import UserPool from './UserPool';
+import UserPool from '../UserPool';
 //import io from 'socket.io-client';
 //express session to save user info?
 

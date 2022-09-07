@@ -1,8 +1,8 @@
 import './App.css';
 import io from 'socket.io-client';
 import {useState} from "react";
-import Chat from './Chat.js';
-import Signup from './Signup.js';
+import Chat from './pages/Chat.js';
+import Signup from './pages/Signup.js';
 
 const socket = io.connect("http://localhost:3030");
 
